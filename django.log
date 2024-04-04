@@ -1,0 +1,311 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\health_monitor\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\health_monitor\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py", line 10, in home
+    return render(request, 'monitor/health_monitor.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: monitor/health_monitor.html
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py", line 10, in home
+    return render(request, 'health_monitor.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: health_monitor.html
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\health_monitor\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /blood-pressure
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /blood-pressure
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /blood-pressure
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-pressure
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /blood-pressure
+Not Found: /heart-rate
+Not Found: /blood-pressure
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-pressure
+Not Found: /blood-oxygen
+Not Found: /blood-pressure
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /heart-rate
+Not Found: /blood-pressure
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-pressure
+Not Found: /blood-oxygen
+Not Found: /blood-pressure
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-pressure
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /blood-pressure
+Not Found: /heart-rate
+Not Found: /blood-pressure
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /blood-pressure
+Not Found: /heart-rate
+Not Found: /blood-pressure
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /blood-pressure
+Not Found: /blood-pressure
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /blood-pressure
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-pressure
+Not Found: /heart-rate
+Not Found: /blood-pressure
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-pressure
+Not Found: /blood-oxygen
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-pressure
+Not Found: /heart-rate
+Not Found: /blood-pressure
+Not Found: /blood-oxygen
+Not Found: /blood-oxygen
+Not Found: /blood-pressure
+Not Found: /heart-rate
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+Not Found: /heart-rate
+Not Found: /blood-oxygen
+Not Found: /blood-oxygen
+Not Found: /heart-rate
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /blood-pressure/
+Traceback (most recent call last):
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py", line 16, in bloodPressure
+    return JsonResponse(data)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\http\response.py", line 726, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /blood-pressure/
+Traceback (most recent call last):
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py", line 16, in bloodPressure
+    return JsonResponse(data)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\http\response.py", line 726, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /blood-pressure/
+Traceback (most recent call last):
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py", line 16, in bloodPressure
+    return JsonResponse(data)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\http\response.py", line 726, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /blood-pressure/
+Traceback (most recent call last):
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py", line 16, in bloodPressure
+    return JsonResponse(data)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\http\response.py", line 726, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /blood-pressure/
+Traceback (most recent call last):
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py", line 16, in bloodPressure
+    return JsonResponse(data)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\http\response.py", line 726, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /blood-pressure/
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /systolic/
+Traceback (most recent call last):
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py", line 15, in systolic
+    return HttpResponse(systolic + ' mmHg')
+                        ~~~~~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Internal Server Error: /systolic/
+Traceback (most recent call last):
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py", line 15, in systolic
+    return HttpResponse(systolic + ' mmHg')
+                        ~~~~~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vemul\OneDrive\Desktop\Coding\BDPA\health_monitor_project\health_monitor\health_monitor\monitor\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
