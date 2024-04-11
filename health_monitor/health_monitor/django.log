@@ -1,132 +1,95 @@
-Watching for file changes with StatReloader
-Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Bad Request: /
-Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Bad Request: /favicon.ico
-/home/suchitv/health-monitor/health_monitor/health_monitor/health_monitor/settings.py changed, reloading.
-Watching for file changes with StatReloader
-/home/suchitv/health-monitor/health_monitor/health_monitor/health_monitor/settings.py changed, reloading.
-Watching for file changes with StatReloader
-Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Bad Request: /
-Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Bad Request: /favicon.ico
-Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Bad Request: /
-Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Bad Request: /favicon.ico
-/home/suchitv/health-monitor/health_monitor/health_monitor/health_monitor/settings.py changed, reloading.
-Watching for file changes with StatReloader
-Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Bad Request: /
-Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Bad Request: /favicon.ico
-/home/suchitv/health-monitor/health_monitor/health_monitor/health_monitor/settings.py changed, reloading.
-Watching for file changes with StatReloader
-Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Bad Request: /
-Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
-    response = self.process_request(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
-    host = request.get_host()
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
-    raise DisallowedHost(msg)
-django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app'. You may need to add '8000--main--health-monitor--suchitv--q9cectu0e0enq.pit-1.try.coder.app' to ALLOWED_HOSTS.
-Bad Request: /favicon.ico
-/home/suchitv/health-monitor/health_monitor/health_monitor/health_monitor/settings.py changed, reloading.
-Watching for file changes with StatReloader
-Not Found: /favicon.ico
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 500 None
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 500 None
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 85
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 87
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 99
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 87
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 87
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 89
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 99
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 89
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 87
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 87
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 87
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 87
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 89
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patients HTTP/1.1" 200 151
+Not Found: /styles.css
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patients HTTP/1.1" 200 151
+Not Found: /styles.css
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patients HTTP/1.1" 200 151
+Not Found: /styles.css
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patients HTTP/1.1" 200 151
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140 HTTP/1.1" 200 86
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 85
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 87
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 87
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patients HTTP/1.1" 200 151
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patients HTTP/1.1" 200 151
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patients HTTP/1.1" 200 151
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patients HTTP/1.1" 200 151
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patients HTTP/1.1" 200 151
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patients HTTP/1.1" 200 151
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patients HTTP/1.1" 200 151
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patients HTTP/1.1" 200 151
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patients HTTP/1.1" 200 151
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patients HTTP/1.1" 200 151
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patients HTTP/1.1" 200 151
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/2345 HTTP/1.1" 200 89
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/2345/bp HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/2345/hr HTTP/1.1" 200 89
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/2345/temp HTTP/1.1" 200 91
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/2345/box HTTP/1.1" 200 89
+https://health-api.hscc-atlanta.com:443 "GET /v2/patient/2345/bp HTTP/1.1" 200 101
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v2/patients HTTP/1.1" 200 151

@@ -1,0 +1,10 @@
+{% for patient in patients %}
+    <div class="card mb-2">
+        <div class="card-body">
+            <a href="/patient/{{ patient.id }}"><h5 class="card-title">{{ patient.name }}</h5></a>
+            <p class="card-text">{{ patient.dob }}</p>
+        </div>
+    </div>
+{% empty %}
+    <p>No patients found.</p>
+{% endfor %}
