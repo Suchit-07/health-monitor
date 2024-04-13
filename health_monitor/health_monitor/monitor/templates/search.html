@@ -14,7 +14,7 @@
         <div class="col">
             <h1>Patient List</h1>
             <form class="mb-4">
-                <input hx-get="/search-patients" hx-target="#patient-list" hx-trigger="load, keyup changed delay:100ms" type="search" name="query" class="form-control" placeholder="Search patients...">
+                <input hx-get="/search-patients" hx-target="#patient-list" hx-trigger="load, keyup changed delay:50ms" type="search" name="query" class="form-control" placeholder="Search patients...">
             </form>
             <div id="patient-list">
             </div>
@@ -28,19 +28,9 @@
         font-family: 'Courier New', Courier, monospace;
     }
     .container {
-        display: flex;
+        width: 50%;
         justify-content: center;
         padding-top: 20px;
-    }
-    .monitor-screen {
-        width: 40%;
-        height: 600px;
-        background-color: #111;
-        border: 2px solid #333;
-        margin-right: 20px;
-    }
-    .statistics {
-        width: 40%;
     }
     .card {
         background-color: #222;
@@ -60,12 +50,7 @@
     .card-title, .card-text {
         color: #ff4136; 
     }
-    .monitor-pic{
-        width: 140%;
-        height: 100%;
-        clip-path: inset(0px 220px 0px 0px);
-        margin-left: 10px;
-    }
+    
 </style>
 </body>
 </html>
