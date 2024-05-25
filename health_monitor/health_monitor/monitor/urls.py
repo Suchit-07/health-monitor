@@ -10,5 +10,6 @@ urlpatterns = [
     path('heart-rate/<int:id>', views.heartRate, name = "heart-rate"),
     path('blood-oxygen/<int:id>', views.bloodOxygen, name = "blood-oxygen"),
     path('temperature/<int:id>', views.temperature, name = "temperature"),
+    path('alarm/<int:id>', views.alarm, name = "alarm"),
 
 ]

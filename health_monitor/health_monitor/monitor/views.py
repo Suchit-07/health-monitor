@@ -47,8 +47,10 @@ def systolic(request, id):
 
     if(response.status_code == 200):
         response = response.json()
-
-        return HttpResponse(str(response['value']['sys']) + ' mmHg')
+        if(response["alarm"] == True):
+            return HttpResponse("<h5 class='card-text alarm'>" + str(response['value']['sys']) + ' mmHg' + "</h5>")
+        else:
+            return HttpResponse("<h5 class='card-text'>" + str(response['value']['sys']) + ' mmHg' + "</h5>")
     else:
         return HttpResponse("Some error occured, try again")
 
@@ -58,8 +60,10 @@ def diastolic(request, id):
 
     if(response.status_code == 200):
         response = response.json()
-
-        return HttpResponse(str(response['value']['dia']) + ' mmHg')
+        if(response["alarm"] == True):
+            return HttpResponse("<h5 class='card-text alarm'>" + str(response['value']['dia']) + ' mmHg' + "</h5>")
+        else:
+            return HttpResponse("<h5 class='card-text'>" + str(response['value']['dia']) + ' mmHg' + "</h5>")
     else:
         return HttpResponse("Some error occured, try again")
 
@@ -69,8 +73,10 @@ def heartRate(request, id):
 
     if(response.status_code == 200):
         response = response.json()
-
-        return HttpResponse(str(response['value']) + ' BPM')
+        if(response["alarm"] == True):
+            return HttpResponse("<h5 class='card-text alarm'>" + str(response['value']) + ' BPM' + "</h5>")
+        else:
+            return HttpResponse("<h5 class='card-text'>" + str(response['value']) + ' BPM' + "</h5>")
     else:
         return HttpResponse("Some error occured, try again")
 
@@ -80,8 +86,10 @@ def bloodOxygen(request, id):
 
     if(response.status_code == 200):
         response = response.json()
-
-        return HttpResponse(str(response['value']) + ' %')
+        if(response["alarm"] == True):
+            return HttpResponse("<h5 class='card-text alarm'>" + str(response['value']) + ' %' + "</h5>")
+        else:
+            return HttpResponse("<h5 class='card-text'>" + str(response['value']) + ' %' + "</h5>")
     else:
         return HttpResponse("Some error occured, try again")
 
@@ -92,7 +100,21 @@ def temperature(request, id):
 
     if(response.status_code == 200):
         response = response.json()
-
-        return HttpResponse(str(response['value']) + ' °F')
+        if(response["alarm"] == True):
+            return HttpResponse("<h5 class='card-text alarm'>" + str(response['value']) + ' °F' + "</h5>")
+        else:
+            return HttpResponse("<h5 class='card-text'>" + str(response['value']) + ' °F' + "</h5>")
     else:
         return HttpResponse("Some error occured, try again")
+
+def alarm(request, id):
+    url = "https://health-api.hscc-atlanta.com/v2/patient/" + str(id) +"/all"
+    response = requests.get(url)
+
+    if(response.status_code == 200):
+        response = response.json()
+        print(response)
+        if(response["alarm"]):
+            return render_template('alarm.html')
+        else:
+            return HttpResponse("")

@@ -34,11 +34,15 @@
         color: #0f0;
     }
     .card-title, .card-text {
-        color: #ff4136; 
+        color: #ffff; 
     }
     .monitor-pic{
         width: 140%;
         height: 100%;
         clip-path: inset(0px 220px 0px 0px);
         margin-left: 10px;
+    }
+
+    .alarm{
+        color: red;
     }
