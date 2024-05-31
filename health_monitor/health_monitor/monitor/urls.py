@@ -11,5 +11,6 @@ urlpatterns = [
     path('blood-oxygen/<int:id>', views.bloodOxygen, name = "blood-oxygen"),
     path('temperature/<int:id>', views.temperature, name = "temperature"),
     path('alarm/<int:id>', views.alarm, name = "alarm"),
+    path('add-patient/', views.add_patients, name = 'add-patients'),
 
 ]

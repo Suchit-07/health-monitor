@@ -9,7 +9,23 @@
     {% load static %}
     <link rel="stylesheet" href="{% static 'styles.css' %}">
 </head>
-<body hx-get="/alarm/{{id}}" hx-trigger="load, every 3s">
+<body hx-get="/alarm/{{id}}" hx-trigger="load, every 5s" hx-target="#alarm-status">
+    <div id="alarm-status">
+        <!-- This will be populated by HTMX with the response -->
+    </div>
+
+    <style>
+        @keyframes flash {
+            0% { background-color: black; }
+            50% { background-color: red; }
+            100% { background-color: black; }
+        }
+
+        body.alarm-active {
+            animation: flash .5s infinite;
+        }
+    </style>
+
     <a href="/">Back</a>
 
     <div class="container">
@@ -22,26 +38,26 @@
             <div class="card text-center">
                 <div class="card-header">Heart Rate</div>
                 <div class="card-body">
-                    <h5 class="card-title" hx-get="{% url 'heart-rate' id=patient.id %}" hx-trigger="load, every 3s">-- BPM</h5>
+                    <h5 class="card-title heart-rate" hx-get="/heart-rate/{{id}}" hx-trigger="load, every 3s" hx-target=".heart-rate">-- BPM</h5>
                 </div>
             </div>
             <div class="card text-center">
                 <div class="card-header">Blood Pressure</div>
                 <div class="card-body">
-                    <h5 class="card-text" hx-get="/systolic/{{id}}" hx-trigger="load, every 3s">Systolic: -- mmHg</h5>
-                    <h5 class="card-text" hx-get="/diastolic/{{id}}" hx-trigger="load, every 3s">Diastolic: -- mmHg</h5>
+                    <h5 class="card-text sys" hx-get="/systolic/{{id}}" hx-trigger="load, every 3s" hx-target=".sys">Systolic: -- mmHg</h5>
+                    <h5 class="card-text dia" hx-get="/diastolic/{{id}}" hx-trigger="load, every 3s" hx-target=".dia">Diastolic: -- mmHg</h5>
                 </div>
             </div>
             <div class="card text-center">
                 <div class="card-header">Blood Oxygen</div>
                 <div class="card-body">
-                    <h5 class="card-title" hx-get="/blood-oxygen/{{id}}" hx-trigger="load, every 3s">-- %</h5>
+                    <h5 class="card-title bo" hx-get="/blood-oxygen/{{id}}" hx-trigger="load, every 3s" hx-target=".bo">-- %</h5>
                 </div>
             </div>
             <div class="card text-center">
                 <div class="card-header">Temperature</div>
                 <div class="card-body">
-                    <h5 class="card-title" hx-get="/temperature/{{id}}" hx-trigger="load, every 3s">-- °F</h5>
+                    <h5 class="card-title temp" hx-get="/temperature/{{id}}" hx-trigger="load, every 3s" hx-target=".temp">-- °F</h5>
                 </div>
             </div>
         </div>

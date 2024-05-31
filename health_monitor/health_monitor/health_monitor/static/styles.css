@@ -43,6 +43,12 @@
         margin-left: 10px;
     }
 
+    @keyframes flash_text {
+        0% { color: white; }
+        50% { color: red; }
+        100% { color: white; }
+    }
+
     .alarm{
-        color: red;
+        animation: flash_text .5s infinite;
     }

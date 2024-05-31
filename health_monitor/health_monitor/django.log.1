@@ -3,164 +3,231 @@ Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 500 None
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 94
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 142
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 99
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 142
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 96
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 99
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 141
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 139
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 500 None
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 96
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 142
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 108
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 108
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 95
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 142
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 99
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 140
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140 HTTP/1.1" 200 84
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 142
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 108
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 99
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 108
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 144
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 99
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 139
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 140
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 500 None
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 105
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 95
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 144
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 143
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 137
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 139
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 142
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 145
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 144
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 139
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140 HTTP/1.1" 200 86
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 140
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 104
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 140
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 143
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 144
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140 HTTP/1.1" 200 84
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
@@ -168,511 +235,430 @@ Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Not Found: /favicon.ico
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 108
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 108
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 96
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 146
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 147
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 95
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 108
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 98
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 108
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 96
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 147
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 149
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 101
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 147
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 98
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 108
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 108
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 96
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 105
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 148
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 144
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 108
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 108
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 97
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 147
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 108
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 108
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 106
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 148
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 111
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 95
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 144
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
-/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py changed, reloading.
-Watching for file changes with StatReloader
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 143
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 139
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 96
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 95
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140 HTTP/1.1" 200 86
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 95
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 96
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 141
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 95
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 147
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 99
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 500 None
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 140
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 106
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 96
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 106
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 96
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 141
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 105
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 98
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 96
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 143
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 108
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 111
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 94
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 144
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 98
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 105
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 146
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140 HTTP/1.1" 200 84
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 98
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 500 None
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 105
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 97
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
-    self.check_response(response, callback)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
-    raise ValueError(
-ValueError: The view monitor.views.alarm didn't return an HttpResponse object. It returned None instead.
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Not Found: /favicon.ico
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 146
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 95
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 142
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 96
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 96
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 148
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 142
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 98
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 96
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 96
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 101
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 111
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 94
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 142
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 98
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 94
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 112
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 112
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 148
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 105
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 98
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 142
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 112
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 112
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 96
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 143
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 96
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 95
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 147
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 97
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 96
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 143
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 99
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in reponse["stats"].items():
-NameError: name 'reponse' is not defined
-/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py changed, reloading.
-Watching for file changes with StatReloader
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140 HTTP/1.1" 200 84
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 500 None
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 500 None
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 500 None
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 93
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 109
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 140
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in response["stats"].items():
-KeyError: 'stats'
+Not Found: /favicon.ico
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 95
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 143
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 99
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 110
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 109
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 95
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 96
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 140
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in response["stats"].items():
-KeyError: 'stats'
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 98
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/all HTTP/1.1" 200 138
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 94
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 98
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 141
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in response["stats"].items():
-KeyError: 'stats'
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/bp HTTP/1.1" 200 109
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/1140/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients HTTP/1.1" 200 228
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 96
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 141
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 107
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in response["stats"].items():
-KeyError: 'stats'
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 98
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345 HTTP/1.1" 200 88
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 105
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 108
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 97
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 200 142
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 98
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/suchitv/health-monitor/health_monitor/health_monitor/monitor/views.py", line 118, in alarm
-    for key, value in response["stats"].items():
-KeyError: 'stats'
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/hr HTTP/1.1" 200 95
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/all HTTP/1.1" 200 144
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/temp HTTP/1.1" 200 100
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/hr HTTP/1.1" 200 98
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/all HTTP/1.1" 500 None
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/hr HTTP/1.1" 200 94
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/temp HTTP/1.1" 200 98
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/box HTTP/1.1" 200 97
-Internal Server Error: /alarm/1140
-Traceback (most recent call last):
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
-    self.check_response(response, callback)
-  File "/home/suchitv/health-monitor/health_monitor/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
-    raise ValueError(
-ValueError: The view monitor.views.alarm didn't return an HttpResponse object. It returned None instead.
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 109
-https://health-api.hscc-atlanta.com:443 "GET /v2/patient/1140/bp HTTP/1.1" 200 109
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/all HTTP/1.1" 200 142
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/box HTTP/1.1" 200 98
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/all HTTP/1.1" 200 143
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/temp HTTP/1.1" 200 101
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 106
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 112
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/all HTTP/1.1" 200 146
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/temp HTTP/1.1" 200 101
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 112
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/temp HTTP/1.1" 200 101
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 112
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/all HTTP/1.1" 200 147
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/temp HTTP/1.1" 200 99
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/temp HTTP/1.1" 200 99
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/hr HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 110
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/all HTTP/1.1" 200 147
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 110
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/hr HTTP/1.1" 200 98
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/all HTTP/1.1" 200 147
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/hr HTTP/1.1" 200 98
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/box HTTP/1.1" 200 97
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/hr HTTP/1.1" 200 98
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/all HTTP/1.1" 200 147
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/hr HTTP/1.1" 200 98
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/box HTTP/1.1" 200 98
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/temp HTTP/1.1" 200 100
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/bp HTTP/1.1" 200 111
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/hr HTTP/1.1" 200 98
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients/2345/all HTTP/1.1" 200 146
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients HTTP/1.1" 200 228
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients HTTP/1.1" 200 228
+Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
+https://health-api.hscc-atlanta.com:443 "GET /v3/patients HTTP/1.1" 200 228
 Starting new HTTPS connection (1): health-api.hscc-atlanta.com:443
